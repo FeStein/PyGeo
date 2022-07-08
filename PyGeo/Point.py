@@ -21,6 +21,5 @@ class Point(object):
 
         :p2: Point to calculate distance to
         :returns: distance
-
         """
-        return math.sqr((self.x - p2.x)**2 + (self.y - p2.y)**2)
+        return math.sqrt((self.x - p2.x) ** 2 + (self.y - p2.y) ** 2)

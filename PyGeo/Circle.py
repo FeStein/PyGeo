@@ -3,11 +3,11 @@ from __future__ import annotations
 import math
 
 # Module imports
-from Point import Point
 from Geometry import Geometry
+from Point import Point
 
 
-class Circle(object):
+class Circle(Geometry):
 
     """Circle Class"""
 

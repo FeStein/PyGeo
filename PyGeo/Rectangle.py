@@ -1,13 +1,11 @@
 from __future__ import annotations
 
-import math
-
 # Module imports
 from Point import Point
 from Geometry import Geometry
 
 
-class Rectangle(object):
+class Rectangle(Geometry):
 
     """Rectangle Class"""
 

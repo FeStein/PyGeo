@@ -1,13 +1,11 @@
 from __future__ import annotations
 
-import math
-
 # Module imports
-from Point import Point
 from Geometry import Geometry
+from Point import Point
 
 
-class Triangle(object):
+class Triangle(Geometry):
 
     """Triangle Class"""
 
