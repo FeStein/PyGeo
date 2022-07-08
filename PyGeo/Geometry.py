@@ -8,4 +8,4 @@ class Geometry(object):
 
     def area(self) -> float:
         """Calculates area of underlying geometry"""
-        pass
+        return 0

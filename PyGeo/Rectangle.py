@@ -1,8 +1,8 @@
 from __future__ import annotations
 
+from Geometry import Geometry
 # Module imports
 from Point import Point
-from Geometry import Geometry
 
 
 class Rectangle(Geometry):

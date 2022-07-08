@@ -27,7 +27,8 @@ class Triangle(Geometry):
 
         """
 
-        area = self.p1.x * self.p2.y + self.p2.x * self.p3.y + self.p3.x * self.p1.y - \
-            self.p1.y * self.p2.x - self.p2.y * self.p3.x - self.p3.y * self.p1.x
+        area = self.p1.x * self.p2.y + self.p2.x * self.p3.y + \
+            self.p3.x * self.p1.y - self.p1.y * self.p2.x - \
+            self.p2.y * self.p3.x - self.p3.y * self.p1.x
 
         return area / 2
