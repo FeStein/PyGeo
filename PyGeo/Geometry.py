@@ -7,4 +7,5 @@ class Geometry(object):
         pass
 
     def area(self) -> float:
+        """Calculates area of underlying geometry"""
         pass
