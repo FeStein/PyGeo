@@ -6,6 +6,7 @@ import math
 from Point import Point
 from Geometry import Geometry
 
+
 class Rectangle(object):
 
     """Rectangle Class"""

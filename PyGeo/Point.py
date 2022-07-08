@@ -1,11 +1,12 @@
 from __future__ import annotations
 import math
 
+
 class Point(object):
 
     """Class to represent a carthesian point"""
 
-    def __init__(self, x: int, y:int):
+    def __init__(self, x: int, y: int):
         """Initialize Point class
 
         :x: x coordinate
@@ -23,4 +24,3 @@ class Point(object):
 
         """
         return math.sqr((self.x - p2.x)**2 + (self.y - p2.y)**2)
-
