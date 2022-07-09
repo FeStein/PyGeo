@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+from math import sqrt
+
 # Module imports
-from Geometry import Geometry
-from Point import Point
+from PyGeo.Geometry import Geometry
+from PyGeo.Point import Point
 
 
 class Triangle(Geometry):
@@ -27,8 +29,12 @@ class Triangle(Geometry):
 
         """
 
-        area = self.p1.x * self.p2.y + self.p2.x * self.p3.y + \
-            self.p3.x * self.p1.y - self.p1.y * self.p2.x - \
-            self.p2.y * self.p3.x - self.p3.y * self.p1.x
+        a = self.p1.distance(self.p2)
+        b = self.p2.distance(self.p3)
+        c = self.p3.distance(self.p1)
 
-        return area / 2
+        s = (a + b + c) / 2
+
+        area = sqrt(s * (s - a) * (s - b) * (s - c))
+
+        return area

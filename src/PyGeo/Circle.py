@@ -3,8 +3,8 @@ from __future__ import annotations
 import math
 
 # Module imports
-from Geometry import Geometry
-from Point import Point
+from PyGeo.Geometry import Geometry
+from PyGeo.Point import Point
 
 
 class Circle(Geometry):
@@ -27,6 +27,6 @@ class Circle(Geometry):
 
         """
 
-        area = 2 * math.pi * self.r**2
+        area = math.pi * self.r**2
 
         return area
