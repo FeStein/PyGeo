@@ -1,5 +1,4 @@
 import pytest
-
 from PyGeo.Point import Point
 
 
