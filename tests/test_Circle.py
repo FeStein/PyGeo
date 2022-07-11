@@ -1,4 +1,5 @@
 import pytest
+
 from PyGeo.Circle import Circle
 from PyGeo.Point import Point
 

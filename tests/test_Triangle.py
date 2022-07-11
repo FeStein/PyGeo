@@ -1,4 +1,5 @@
 import pytest
+
 from PyGeo.Point import Point
 from PyGeo.Triangle import Triangle
 
